@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#3a2670"/>
+      <stop offset="100%" stop-color="#1a1230"/>
+    </radialGradient>
+    <linearGradient id="redGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6a78"/>
+      <stop offset="100%" stop-color="#c2101e"/>
+    </linearGradient>
+    <linearGradient id="blueGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6fdcff"/>
+      <stop offset="100%" stop-color="#0d77a8"/>
+    </linearGradient>
+    <linearGradient id="yellowGem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff066"/>
+      <stop offset="100%" stop-color="#c9a900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1024" height="1024" rx="180" fill="url(#bg)"/>
+
+  <!-- subtle glow -->
+  <circle cx="512" cy="450" r="380" fill="rgba(255,216,74,0.06)"/>
+
+  <!-- three jewels artfully arranged -->
+  <!-- blue diamond, bottom-left -->
+  <g transform="translate(330,640) scale(7)">
+    <polygon points="0,30 28,-15 0,-35 -28,-15" fill="url(#blueGem)" stroke="#0a5275" stroke-width="3"/>
+    <polygon points="0,-15 14,-25 0,-35 -14,-25" fill="rgba(255,255,255,0.35)"/>
+  </g>
+
+  <!-- yellow diamond, bottom-right -->
+  <g transform="translate(695,640) scale(7)">
+    <polygon points="0,32 32,0 0,-32 -32,0" fill="url(#yellowGem)" stroke="#9a8c00" stroke-width="3"/>
+    <polygon points="-12,-12 0,-22 12,-12 0,-2" fill="rgba(255,255,255,0.45)"/>
+  </g>
+
+  <!-- big red gem, top center -->
+  <g transform="translate(512,390) scale(11)">
+    <polygon points="22,30 30,22 30,-22 22,-30 -22,-30 -30,-22 -30,22 -22,30"
+      fill="url(#redGem)" stroke="#7a0810" stroke-width="3"/>
+    <polygon points="22,30 30,22 30,-22 22,-30 -22,-30 -30,-22 -30,22 -22,30"
+      fill="none" stroke="#7a0810" stroke-width="2.5" transform="scale(0.55)"/>
+    <line x1="9" y1="15" x2="15" y2="30" stroke="#7a0810" stroke-width="2"/>
+    <line x1="15" y1="9" x2="30" y2="15" stroke="#7a0810" stroke-width="2"/>
+    <line x1="-9" y1="15" x2="-15" y2="30" stroke="#7a0810" stroke-width="2"/>
+    <line x1="-15" y1="9" x2="-30" y2="15" stroke="#7a0810" stroke-width="2"/>
+    <line x1="9" y1="-15" x2="15" y2="-30" stroke="#7a0810" stroke-width="2"/>
+    <line x1="15" y1="-9" x2="30" y2="-15" stroke="#7a0810" stroke-width="2"/>
+    <line x1="-9" y1="-15" x2="-15" y2="-30" stroke="#7a0810" stroke-width="2"/>
+    <line x1="-15" y1="-9" x2="-30" y2="-15" stroke="#7a0810" stroke-width="2"/>
+    <polygon points="-18,-22 -12,-26 12,-26 18,-22" fill="rgba(255,255,255,0.4)"/>
+  </g>
+</svg>
