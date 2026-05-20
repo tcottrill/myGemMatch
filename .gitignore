@@ -1,4 +1,5 @@
 .claude/
+docs/superpowers/
 *.log
 .DS_Store
 Thumbs.db

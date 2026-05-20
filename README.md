@@ -140,7 +140,6 @@ The original gem SVGs come from a `bejeweled.html` source file (kept in the repo
 - `site.webmanifest` — PWA manifest (name, icons, theme colour).
 - `apple-touch-icon.png`, `apple-touch-icon-152x152.png`, `apple-touch-icon-167x167.png`, `icon-192.png`, `icon-512.png`, `favicon-*.png`, `favicon.ico` — app and tab icons.
 - `icon-master.svg` — vector source for the icons.
-- `docs/superpowers/specs/` and `docs/superpowers/plans/` — the brainstorming spec and implementation plan that drove the build.
 - `LICENSE` — public domain dedication.
 
 ## Development
